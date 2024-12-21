@@ -1,0 +1,146 @@
+{
+  "Myrcene": {
+    "effects": ["Sedative", "Muscle relaxant", "Anti-inflammatory", "Analgesic", "Antimutagenic"],
+    "potential_benefits": ["Sleep aid", "Muscle spasm relief", "Chronic pain management"],
+    "synergistic_terpenes": ["Linalool", "Caryophyllene"],
+    "synergistic_cannabinoids": ["THC", "CBN"],
+    "entourage_effect": "Enhances sedative effects of THC, amplifies pain relief with CBN",
+    "icon": "🥭",
+    "taste_profile": ["earthy", "herbal", "musky", "spicy", "tropical"]
+  },
+  "Limonene": {
+    "effects": ["Mood elevation", "Stress relief", "Antifungal", "Antibacterial", "Anti-carcinogenic"],
+    "potential_benefits": ["Anxiety reduction", "Depression alleviation", "Heartburn relief"],
+    "synergistic_terpenes": ["Myrcene", "Pinene"],
+    "synergistic_cannabinoids": ["CBD", "THC"],
+    "entourage_effect": "Enhances mood-elevating effects of CBD, may reduce anxiety associated with THC",
+    "icon": "🍋",
+    "taste_profile": ["citrus", "fresh", "zesty"]
+  },
+  "Pinene": {
+    "effects": ["Alertness", "Memory retention", "Bronchodilation", "Anti-inflammatory", "Antiseptic"],
+    "potential_benefits": ["Asthma relief", "Focus enhancement", "Short-term memory improvement"],
+    "synergistic_terpenes": ["Limonene", "Caryophyllene"],
+    "synergistic_cannabinoids": ["THC", "CBD"],
+    "entourage_effect": "May counteract short-term memory deficits from THC, enhances overall alertness with CBD",
+    "icon": "🌲",
+    "taste_profile": ["earthy", "fresh", "pine", "sharp", "woody"]
+  },
+  "Linalool": {
+    "effects": ["Anxiety reduction", "Sedation", "Anticonvulsant", "Analgesic", "Anti-inflammatory"],
+    "potential_benefits": ["Stress relief", "Sleep aid", "Epilepsy management"],
+    "synergistic_terpenes": ["Myrcene", "Caryophyllene"],
+    "synergistic_cannabinoids": ["CBD", "CBN"],
+    "entourage_effect": "Enhances anxiolytic effects of CBD, amplifies sedative properties of CBN",
+    "icon": "🌸",
+    "taste_profile": ["citrus", "floral", "herbal", "sweet"]
+  },
+  "Caryophyllene": {
+    "effects": ["Pain relief", "Anti-inflammatory", "Anxiolytic", "Neuroprotective"],
+    "potential_benefits": ["Arthritis relief", "Ulcer prevention", "Alcohol craving reduction"],
+    "synergistic_terpenes": ["Myrcene", "Linalool"],
+    "synergistic_cannabinoids": ["CBD", "THC"],
+    "entourage_effect": "Enhances anti-inflammatory effects of CBD, may reduce THC-induced anxiety",
+    "icon": "🌶️",
+    "taste_profile": ["spicy", "woody", "earthy", "peppery"]
+  },
+  "Humulene": {
+    "effects": ["Appetite suppression", "Anti-inflammatory", "Antibacterial", "Antitumor"],
+    "potential_benefits": ["Weight management", "Inflammatory conditions"],
+    "synergistic_terpenes": ["Caryophyllene", "Pinene"],
+    "synergistic_cannabinoids": ["CBD", "CBG"],
+    "entourage_effect": "May enhance anti-inflammatory effects of CBD, potential synergy with CBG in appetite regulation",
+    "icon": "🍺",
+    "taste_profile": ["woody", "earthy", "spicy", "hoppy"]
+  },
+  "Terpinolene": {
+    "effects": ["Sedative", "Antioxidant", "Antibacterial", "Antifungal"],
+    "potential_benefits": ["Insomnia relief", "Antioxidant support"],
+    "synergistic_terpenes": ["Myrcene", "Pinene"],
+    "synergistic_cannabinoids": ["THC", "CBN"],
+    "entourage_effect": "May contribute to the sedative effects of THC and CBN",
+    "icon": "🍏",
+    "taste_profile": ["floral", "pine", "lime", "herbal"]
+  },
+  "Ocimene": {
+    "effects": ["Antiviral", "Antifungal", "Anti-inflammatory", "Decongestant"],
+    "potential_benefits": ["Respiratory support", "Antiviral properties"],
+    "synergistic_terpenes": ["Myrcene", "Pinene"],
+    "synergistic_cannabinoids": ["CBD", "THCV"],
+    "entourage_effect": "May enhance the anti-inflammatory effects of CBD",
+    "icon": "🌿",
+    "taste_profile": ["citrus", "herbal", "sweet", "woody"]
+  },
+  "Eucalyptol": {
+    "effects": ["Antibacterial", "Anti-inflammatory", "Expectorant", "Pain relief"],
+    "potential_benefits": ["Respiratory issues", "Pain management", "Cognitive function"],
+    "synergistic_terpenes": ["Pinene", "Limonene"],
+    "synergistic_cannabinoids": ["CBD", "THCV"],
+    "entourage_effect": "May enhance the bronchodilatory effects of THCV",
+    "icon": "🌿",
+    "taste_profile": ["cool", "fresh", "medicinal", "mint"]
+  },
+  "Nerolidol": {
+    "effects": ["Sedative", "Anxiolytic", "Antifungal", "Antiparasitic"],
+    "potential_benefits": ["Sleep aid", "Skin conditions", "Antifungal properties"],
+    "synergistic_terpenes": ["Linalool", "Myrcene"],
+    "synergistic_cannabinoids": ["CBD", "CBN"],
+    "entourage_effect": "May enhance the sedative effects of CBN",
+    "icon": "🌺",
+    "taste_profile": ["apple", "citrus", "floral", "woody"]
+  },
+  "Geraniol": {
+    "effects": ["Neuroprotective", "Antioxidant", "Anticancer", "Antimicrobial"],
+    "potential_benefits": ["Neuroprotection", "Cancer prevention", "Skin health"],
+    "synergistic_terpenes": ["Linalool", "Myrcene"],
+    "synergistic_cannabinoids": ["CBD", "CBG"],
+    "entourage_effect": "May enhance the neuroprotective effects of CBD",
+    "icon": "🌹",
+    "taste_profile": ["floral", "fruity", "sweet"]
+  },
+  "Bisabolol": {
+    "effects": ["Anti-inflammatory", "Analgesic", "Anti-irritation", "Antimicrobial"],
+    "potential_benefits": ["Skin healing", "Pain relief", "Oral health"],
+    "synergistic_terpenes": ["Myrcene", "Linalool"],
+    "synergistic_cannabinoids": ["CBD", "CBG"],
+    "entourage_effect": "May enhance the anti-inflammatory effects of CBD and CBG",
+    "icon": "🌼",
+    "taste_profile": ["chamomile-like", "floral", "sweet"]
+  },
+  "Farnesene": {
+    "effects": ["Anti-inflammatory", "Antioxidant", "Antimicrobial", "Insect repellent"],
+    "potential_benefits": ["Skin health", "Insect repellent", "Potential anti-inflammatory"],
+    "synergistic_terpenes": ["Myrcene", "Pinene"],
+    "synergistic_cannabinoids": ["CBD", "CBG"],
+    "entourage_effect": "May enhance the anti-inflammatory effects of CBD",
+    "icon": "🍏",
+    "taste_profile": ["citrus", "floral", "sweet", "woody"]
+  },
+  "Phytol": {
+    "effects": ["Anti-insomnia", "Anxiolytic", "Antioxidant", "Immunosuppressant"],
+    "potential_benefits": ["Sleep aid", "Anxiety relief", "Antioxidant support"],
+    "synergistic_terpenes": ["Linalool", "Myrcene"],
+    "synergistic_cannabinoids": ["CBN", "CBD"],
+    "entourage_effect": "May enhance the sleep-inducing effects of CBN",
+    "icon": "🍵",
+    "taste_profile": ["balsamic", "floral", "grassy", "green"]
+  },
+  "Sabinene": {
+    "effects": ["Antioxidant", "Anti-inflammatory", "Antimicrobial"],
+    "potential_benefits": ["Antioxidant support", "Potential anti-inflammatory", "Antimicrobial properties"],
+    "synergistic_terpenes": ["Pinene", "Caryophyllene"],
+    "synergistic_cannabinoids": ["CBD", "THCV"],
+    "entourage_effect": "May enhance the anti-inflammatory effects of CBD",
+    "icon": "🌰",
+    "taste_profile": ["citrus", "spicy", "woody"]
+  },
+  "Valencene": {
+    "effects": ["Anti-inflammatory", "Anti-allergic", "Insect repellent"],
+    "potential_benefits": ["Skin health", "Allergy relief", "Insect repellent"],
+    "synergistic_terpenes": ["Limonene", "Myrcene"],
+    "synergistic_cannabinoids": ["CBD", "THC"],
+    "entourage_effect": "May enhance the mood-elevating effects of THC",
+    "icon": "🍊",
+    "taste_profile": ["citrus", "sweet"]
+  }
+}

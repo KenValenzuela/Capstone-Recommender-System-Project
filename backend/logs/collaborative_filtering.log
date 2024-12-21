@@ -1,0 +1,250 @@
+2024-10-14 15:33:57,994 [INFO] Loaded interaction data from .venv/synthetic_profiles_with_reviews.csv with shape (20000000, 3)
+2024-10-14 15:33:59,928 [INFO] Found duplicate user-strain interactions. Aggregating by mean rating.
+2024-10-14 15:34:05,035 [INFO] Aggregated interaction data to shape (19942009, 3)
+2024-10-14 15:34:05,077 [INFO] Preparing data for ALS model training...
+2024-10-14 15:34:05,421 [INFO] Number of unique users: 114420, Number of unique strains: 34971
+2024-10-14 15:34:05,432 [INFO] Saved user_id mapping to '.venv/mappings/user_id_mapping.pkl'
+2024-10-14 15:34:05,448 [INFO] Saved strain_id mapping to '.venv/mappings/strain_id_mapping.pkl'
+2024-10-14 15:34:07,806 [INFO] Training data size: (13959406, 5), Validation data size: (2991301, 5), Test data size: (2991302, 5)
+2024-10-14 15:34:07,809 [INFO] Using device: cuda
+2024-10-14 15:34:08,099 [INFO] Created DataLoader for training.
+2024-10-14 15:34:08,180 [INFO] Starting ALS model training...
+2024-10-14 15:34:08,949 [ERROR] An unexpected error occurred during ALS training: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 265, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 142, in collate
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 142, in <listcomp>
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 119, in collate
+    return collate_fn_map[elem_type](batch, collate_fn_map=collate_fn_map)
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 162, in collate_tensor_fn
+    return torch.stack(batch, 0, out=out)
+RuntimeError: HIP error: no kernel image is available for execution on the device
+HIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing HIP_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_HIP_DSA` to enable device-side assertions.
+
+
+2024-10-14 15:37:05,056 [INFO] Loaded interaction data from .venv/synthetic_profiles_with_reviews.csv with shape (20000000, 3)
+2024-10-14 15:37:06,974 [INFO] Found duplicate user-strain interactions. Aggregating by mean rating.
+2024-10-14 15:37:12,055 [INFO] Aggregated interaction data to shape (19942009, 3)
+2024-10-14 15:37:12,090 [INFO] Preparing data for ALS model training...
+2024-10-14 15:37:12,428 [INFO] Number of unique users: 114420, Number of unique strains: 34971
+2024-10-14 15:37:12,441 [INFO] Saved user_id mapping to '.venv/mappings/user_id_mapping.pkl'
+2024-10-14 15:37:12,447 [INFO] Saved strain_id mapping to '.venv/mappings/strain_id_mapping.pkl'
+2024-10-14 15:37:14,741 [INFO] Training data size: (13959406, 5), Validation data size: (2991301, 5), Test data size: (2991302, 5)
+2024-10-14 15:37:14,743 [INFO] Using device: cuda
+2024-10-14 15:37:14,839 [INFO] Created DataLoader for training.
+2024-10-14 15:37:14,900 [INFO] Starting ALS model training...
+2024-10-14 15:37:15,637 [ERROR] An unexpected error occurred during ALS training: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 265, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 142, in collate
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 142, in <listcomp>
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 119, in collate
+    return collate_fn_map[elem_type](batch, collate_fn_map=collate_fn_map)
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 162, in collate_tensor_fn
+    return torch.stack(batch, 0, out=out)
+RuntimeError: HIP error: no kernel image is available for execution on the device
+HIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing HIP_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_HIP_DSA` to enable device-side assertions.
+
+
+2024-10-14 15:39:25,900 [INFO] Loaded interaction data from .venv/synthetic_profiles_with_reviews.csv with shape (20000000, 3)
+2024-10-14 15:39:27,673 [INFO] Found duplicate user-strain interactions. Aggregating by mean rating.
+2024-10-14 15:39:32,461 [INFO] Aggregated interaction data to shape (19942009, 3)
+2024-10-14 15:39:32,498 [INFO] Preparing data for ALS model training...
+2024-10-14 15:39:32,807 [INFO] Number of unique users: 114420, Number of unique strains: 34971
+2024-10-14 15:39:32,819 [INFO] Saved user_id mapping to '.venv/mappings/user_id_mapping.pkl'
+2024-10-14 15:39:32,824 [INFO] Saved strain_id mapping to '.venv/mappings/strain_id_mapping.pkl'
+2024-10-14 15:39:34,995 [INFO] Training data size: (13959406, 5), Validation data size: (2991301, 5), Test data size: (2991302, 5)
+2024-10-14 15:39:34,996 [INFO] Using device: cuda
+2024-10-14 15:39:35,097 [INFO] Created DataLoader for training.
+2024-10-14 15:39:35,176 [INFO] Starting ALS model training...
+2024-10-14 15:39:35,945 [ERROR] An unexpected error occurred during ALS training: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 265, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 142, in collate
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 142, in <listcomp>
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 119, in collate
+    return collate_fn_map[elem_type](batch, collate_fn_map=collate_fn_map)
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 162, in collate_tensor_fn
+    return torch.stack(batch, 0, out=out)
+RuntimeError: HIP error: no kernel image is available for execution on the device
+HIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing HIP_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_HIP_DSA` to enable device-side assertions.
+
+
+2024-10-14 15:40:30,263 [INFO] Loaded interaction data from .venv/synthetic_profiles_with_reviews.csv with shape (20000000, 3)
+2024-10-14 15:40:32,135 [INFO] Found duplicate user-strain interactions. Aggregating by mean rating.
+2024-10-14 15:40:37,133 [INFO] Aggregated interaction data to shape (19942009, 3)
+2024-10-14 15:40:37,176 [INFO] Preparing data for ALS model training...
+2024-10-14 15:40:37,502 [INFO] Number of unique users: 114420, Number of unique strains: 34971
+2024-10-14 15:40:37,514 [INFO] Saved user_id mapping to '.venv/mappings/user_id_mapping.pkl'
+2024-10-14 15:40:37,519 [INFO] Saved strain_id mapping to '.venv/mappings/strain_id_mapping.pkl'
+2024-10-14 15:40:39,831 [INFO] Training data size: (13959406, 5), Validation data size: (2991301, 5), Test data size: (2991302, 5)
+2024-10-14 15:40:39,834 [INFO] Using device: cuda
+2024-10-14 15:40:39,953 [INFO] Created DataLoader for training.
+2024-10-14 15:40:40,021 [INFO] Starting ALS model training...
+2024-10-14 15:40:40,727 [ERROR] An unexpected error occurred during ALS training: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 265, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 142, in collate
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 142, in <listcomp>
+    return [collate(samples, collate_fn_map=collate_fn_map) for samples in transposed]  # Backwards compatibility.
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 119, in collate
+    return collate_fn_map[elem_type](batch, collate_fn_map=collate_fn_map)
+  File "/home/ken/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 162, in collate_tensor_fn
+    return torch.stack(batch, 0, out=out)
+RuntimeError: HIP error: no kernel image is available for execution on the device
+HIP kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing HIP_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_HIP_DSA` to enable device-side assertions.
+
+
+2024-10-14 15:47:06,997 [INFO] Loaded interaction data from .venv/synthetic_profiles_with_reviews.csv with shape (20000000, 3)
+2024-10-14 15:47:08,845 [INFO] Found duplicate user-strain interactions. Aggregating by mean rating.
+2024-10-14 15:47:13,696 [INFO] Aggregated interaction data to shape (19942009, 3)
+2024-10-14 15:47:13,733 [INFO] Preparing data for ALS model training...
+2024-10-14 15:47:14,073 [INFO] Number of unique users: 114420, Number of unique strains: 34971
+2024-10-14 15:47:14,088 [INFO] Saved user_id mapping to '.venv/mappings/user_id_mapping.pkl'
+2024-10-14 15:47:14,100 [INFO] Saved strain_id mapping to '.venv/mappings/strain_id_mapping.pkl'
+2024-10-14 15:47:16,222 [INFO] Training data size: (13959406, 5), Validation data size: (2991301, 5), Test data size: (2991302, 5)
+2024-10-14 15:47:16,256 [INFO] Created DataLoader for training.
+2024-10-14 15:47:16,259 [INFO] Using device: cuda
+2024-10-14 15:47:16,329 [ERROR] An unexpected error occurred during ALS training: SparseAdam.__init__() got an unexpected keyword argument 'weight_decay'
+2024-10-14 16:00:27,843 [INFO] Loaded interaction data from .venv/synthetic_profiles_with_reviews.csv with shape (20000000, 3)
+2024-10-14 16:00:29,689 [INFO] Found duplicate user-strain interactions. Aggregating by mean rating.
+2024-10-14 16:00:34,852 [INFO] Aggregated interaction data to shape (19942009, 3)
+2024-10-14 16:00:34,886 [INFO] Preparing data for ALS model training...
+2024-10-14 16:00:35,778 [INFO] Number of unique users: 114420, Number of unique strains: 34971
+2024-10-14 16:00:35,850 [INFO] Saved user_id mapping to '.venv/mappings/user_id_mapping.pkl'
+2024-10-14 16:00:35,854 [INFO] Saved strain_id mapping to '.venv/mappings/strain_id_mapping.pkl'
+2024-10-14 16:00:39,024 [INFO] Training data size: (13959406, 5), Validation data size: (2991301, 5), Test data size: (2991302, 5)
+2024-10-14 16:00:39,081 [INFO] Created DataLoader for training.
+2024-10-14 16:00:39,082 [INFO] Using device: cpu
+2024-10-14 16:00:39,140 [ERROR] An unexpected error occurred during ALS training: SparseAdam.__init__() got an unexpected keyword argument 'weight_decay'
+2024-10-14 16:04:08,800 [INFO] Loaded interaction data from .venv/synthetic_profiles_with_reviews.csv with shape (20000000, 3)
+2024-10-14 16:04:10,498 [INFO] Found duplicate user-strain interactions. Aggregating by mean rating.
+2024-10-14 16:04:15,034 [INFO] Aggregated interaction data to shape (19942009, 3)
+2024-10-14 16:04:15,066 [INFO] Preparing data for ALS model training...
+2024-10-14 16:04:15,386 [INFO] Number of unique users: 114420, Number of unique strains: 34971
+2024-10-14 16:04:15,398 [INFO] Saved user_id mapping to '.venv/mappings/user_id_mapping.pkl'
+2024-10-14 16:04:15,404 [INFO] Saved strain_id mapping to '.venv/mappings/strain_id_mapping.pkl'
+2024-10-14 16:04:17,455 [INFO] Training data size: (13959406, 5), Validation data size: (2991301, 5), Test data size: (2991302, 5)
+2024-10-14 16:04:17,485 [INFO] Created DataLoader for training.
+2024-10-14 16:04:17,488 [INFO] Using device: cpu
+2024-10-14 16:05:34,125 [INFO] Epoch [1/100], Loss: 3.1068
+2024-10-14 16:05:34,300 [INFO] Validation RMSE: 1.4594
+2024-10-14 16:05:34,306 [INFO] New best RMSE: 1.4594 at epoch 1
+2024-10-14 16:06:48,084 [INFO] Epoch [2/100], Loss: 1.6989
+2024-10-14 16:06:48,251 [INFO] Validation RMSE: 1.5171
+2024-10-14 16:06:48,253 [INFO] No improvement in RMSE for 1 epochs.
+2024-10-14 16:08:02,232 [INFO] Epoch [3/100], Loss: 1.4278
+2024-10-14 16:08:02,472 [INFO] Validation RMSE: 1.5850
+2024-10-14 16:08:02,474 [INFO] No improvement in RMSE for 2 epochs.
+2024-10-14 16:09:16,286 [INFO] Epoch [4/100], Loss: 1.2653
+2024-10-14 16:09:16,476 [INFO] Validation RMSE: 1.6354
+2024-10-14 16:09:16,478 [INFO] No improvement in RMSE for 3 epochs.
+2024-10-14 16:10:29,635 [INFO] Epoch [5/100], Loss: 1.1632
+2024-10-14 16:10:29,786 [INFO] Validation RMSE: 1.6720
+2024-10-14 16:10:29,787 [INFO] No improvement in RMSE for 4 epochs.
+2024-10-14 16:11:43,186 [INFO] Epoch [6/100], Loss: 1.0929
+2024-10-14 16:11:43,335 [INFO] Validation RMSE: 1.6999
+2024-10-14 16:11:43,340 [INFO] No improvement in RMSE for 5 epochs.
+2024-10-14 16:12:56,651 [INFO] Epoch [7/100], Loss: 1.0414
+2024-10-14 16:12:56,803 [INFO] Validation RMSE: 1.7220
+2024-10-14 16:12:56,805 [INFO] No improvement in RMSE for 6 epochs.
+2024-10-14 16:14:09,759 [INFO] Epoch [8/100], Loss: 0.8553
+2024-10-14 16:14:09,907 [INFO] Validation RMSE: 1.7253
+2024-10-14 16:14:09,909 [INFO] No improvement in RMSE for 7 epochs.
+2024-10-14 16:15:24,504 [INFO] Epoch [9/100], Loss: 0.8490
+2024-10-14 16:15:24,649 [INFO] Validation RMSE: 1.7286
+2024-10-14 16:15:24,651 [INFO] No improvement in RMSE for 8 epochs.
+2024-10-14 16:16:38,145 [INFO] Epoch [10/100], Loss: 0.8438
+2024-10-14 16:16:38,320 [INFO] Validation RMSE: 1.7319
+2024-10-14 16:16:38,322 [INFO] No improvement in RMSE for 9 epochs.
+2024-10-14 16:17:51,550 [INFO] Epoch [11/100], Loss: 0.8393
+2024-10-14 16:17:51,707 [INFO] Validation RMSE: 1.7351
+2024-10-14 16:17:51,709 [INFO] No improvement in RMSE for 10 epochs.
+2024-10-14 16:17:51,710 [INFO] Early stopping triggered.
+2024-10-14 16:17:51,714 [INFO] Best RMSE achieved: 1.4594
+2024-10-14 16:17:51,809 [INFO] User and strain embeddings saved to '.venv/user_embeddings.npy' and '.venv/strain_embeddings.npy'.
+2024-10-14 16:17:51,908 [INFO] ALS model saved to '.venv/als_model.pth'.
+2024-10-14 16:17:54,296 [INFO] Saved ALS test data to '.venv/als_test_data.csv'.
+2024-10-14 18:22:00,103 [INFO] Loaded interaction data from .venv/synthetic_profiles_with_reviews.csv with shape (20000000, 3)
+2024-10-14 18:22:01,387 [INFO] Found duplicate user-strain interactions. Aggregating by mean rating.
+2024-10-14 18:22:06,907 [INFO] Aggregated interaction data to shape (19942009, 3)
+2024-10-14 18:22:06,942 [INFO] Preparing data for ALS model training...
+2024-10-14 18:22:07,257 [INFO] Number of unique users: 114420, Number of unique strains: 34971
+2024-10-14 18:22:07,268 [INFO] Saved user_id mapping to '.venv/mappings/user_id_mapping.pkl'
+2024-10-14 18:22:07,273 [INFO] Saved strain_id mapping to '.venv/mappings/strain_id_mapping.pkl'
+2024-10-14 18:22:09,497 [INFO] Training data size: (13959406, 5), Validation data size: (2991301, 5), Test data size: (2991302, 5)
+2024-10-14 18:22:09,572 [INFO] Created DataLoader for training.
+2024-10-14 18:22:09,573 [INFO] Using device: cuda
+2024-10-14 18:24:23,497 [INFO] Epoch [1/100], Loss: 3.1075
+2024-10-14 18:24:23,581 [INFO] Validation RMSE: 1.4594
+2024-10-14 18:24:23,584 [INFO] New best RMSE: 1.4594 at epoch 1
+2024-10-14 18:26:41,879 [INFO] Epoch [2/100], Loss: 1.6974
+2024-10-14 18:26:41,923 [INFO] Validation RMSE: 1.5179
+2024-10-14 18:26:41,925 [INFO] No improvement in RMSE for 1 epochs.
+2024-10-14 18:28:57,358 [INFO] Epoch [3/100], Loss: 1.4262
+2024-10-14 18:28:57,393 [INFO] Validation RMSE: 1.5866
+2024-10-14 18:28:57,394 [INFO] No improvement in RMSE for 2 epochs.
+2024-10-14 18:31:08,441 [INFO] Epoch [4/100], Loss: 1.2640
+2024-10-14 18:31:08,474 [INFO] Validation RMSE: 1.6373
+2024-10-14 18:31:08,476 [INFO] No improvement in RMSE for 3 epochs.
+2024-10-14 18:33:21,439 [INFO] Epoch [5/100], Loss: 1.1620
+2024-10-14 18:33:21,472 [INFO] Validation RMSE: 1.6739
+2024-10-14 18:33:21,473 [INFO] No improvement in RMSE for 4 epochs.
+2024-10-14 18:35:32,411 [INFO] Epoch [6/100], Loss: 1.0921
+2024-10-14 18:35:32,444 [INFO] Validation RMSE: 1.7018
+2024-10-14 18:35:32,445 [INFO] No improvement in RMSE for 5 epochs.
+2024-10-14 18:37:43,132 [INFO] Epoch [7/100], Loss: 1.0405
+2024-10-14 18:37:43,166 [INFO] Validation RMSE: 1.7238
+2024-10-14 18:37:43,167 [INFO] No improvement in RMSE for 6 epochs.
+2024-10-14 18:39:56,626 [INFO] Epoch [8/100], Loss: 0.8545
+2024-10-14 18:39:56,670 [INFO] Validation RMSE: 1.7271
+2024-10-14 18:39:56,672 [INFO] No improvement in RMSE for 7 epochs.
+2024-10-14 18:42:09,856 [INFO] Epoch [9/100], Loss: 0.8483
+2024-10-14 18:42:09,891 [INFO] Validation RMSE: 1.7305
+2024-10-14 18:42:09,893 [INFO] No improvement in RMSE for 8 epochs.
+2024-10-14 18:44:21,393 [INFO] Epoch [10/100], Loss: 0.8431
+2024-10-14 18:44:21,427 [INFO] Validation RMSE: 1.7338
+2024-10-14 18:44:21,428 [INFO] No improvement in RMSE for 9 epochs.
+2024-10-14 18:46:32,717 [INFO] Epoch [11/100], Loss: 0.8385
+2024-10-14 18:46:32,751 [INFO] Validation RMSE: 1.7370
+2024-10-14 18:46:32,753 [INFO] No improvement in RMSE for 10 epochs.
+2024-10-14 18:46:32,754 [INFO] Early stopping triggered.
+2024-10-14 18:46:32,756 [INFO] Best RMSE achieved: 1.4594
+2024-10-14 18:46:32,878 [INFO] User and strain embeddings saved to '.venv/user_embeddings.npy' and '.venv/strain_embeddings.npy'.
+2024-10-14 18:46:33,010 [INFO] ALS model saved to '.venv/als_model.pth'.
+2024-10-14 18:46:35,553 [INFO] Saved ALS test data to '.venv/als_test_data.csv'.

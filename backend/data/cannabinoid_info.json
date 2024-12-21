@@ -1,0 +1,106 @@
+{
+  "THC": {
+    "full_name": "Tetrahydrocannabinol",
+    "effects": ["Euphoria", "Pain relief", "Appetite stimulant", "Anti-inflammatory"],
+    "percentage_range": [0.3, 39.0],
+    "medical_applications": ["Chronic pain", "Nausea", "Multiple sclerosis", "Glaucoma", "Appetite stimulation"],
+    "receptor_interaction": "Binds strongly to CB1 and CB2 receptors",
+    "psychoactive": true,
+    "side_effects": ["Euphoria", "Altered perception", "Anxiety (high doses)", "Impaired memory"],
+    "entourage_effect": {
+      "CBD": "Reduces psychoactive effects and anxiety from THC, enhances pain relief",
+      "CBN": "Enhances sedative and pain-relieving properties of THC"
+    }
+  },
+  "CBD": {
+    "full_name": "Cannabidiol",
+    "effects": ["Relaxation", "Anti-inflammatory", "Anxiety reduction", "Sleep aid"],
+    "percentage_range": [0.1, 41.0],
+    "medical_applications": ["Anxiety disorders", "Chronic pain", "Inflammation", "Epilepsy", "Insomnia"],
+    "receptor_interaction": "Indirectly modulates CB1 and CB2 receptor activity",
+    "psychoactive": false,
+    "side_effects": ["Fatigue", "Changes in appetite"],
+    "entourage_effect": {
+      "THC": "Reduces psychoactivity, balances effects, enhances pain relief",
+      "CBG": "May enhance anti-inflammatory properties"
+    }
+  },
+  "CBN": {
+    "full_name": "Cannabinol",
+    "effects": ["Sedation", "Pain relief", "Anti-inflammatory"],
+    "percentage_range": [0.1, 1.0],
+    "medical_applications": ["Insomnia", "Chronic pain", "Neuroprotection"],
+    "receptor_interaction": "Weakly binds to CB1 and CB2 receptors",
+    "psychoactive": "Mildly psychoactive",
+    "side_effects": ["Drowsiness"],
+    "entourage_effect": {
+      "THC": "Enhances sedative effects and pain relief",
+      "CBD": "May amplify sedative properties"
+    }
+  },
+  "THCV": {
+    "full_name": "Tetrahydrocannabivarin",
+    "effects": ["Appetite suppressant", "Energy boost", "Neuroprotective"],
+    "percentage_range": [0.1, 1.0],
+    "medical_applications": ["Weight management", "Epilepsy", "Parkinson's disease"],
+    "receptor_interaction": "Acts as a CB1 antagonist at low doses, agonist at higher doses",
+    "psychoactive": "True (depending on dose)",
+    "side_effects": ["Anxiety at high doses"],
+    "entourage_effect": {
+      "CBD": "May counteract appetite suppression from THCV",
+      "CBN": "Potential enhancement of neuroprotective effects"
+    }
+  },
+  "CBG": {
+    "full_name": "Cannabigerol",
+    "effects": ["Antibacterial", "Anti-inflammatory", "Neuroprotective"],
+    "percentage_range": [0.1, 1.0],
+    "medical_applications": ["Glaucoma", "Inflammatory bowel disease", "Cancer"],
+    "receptor_interaction": "Binds to CB1 and CB2 receptors with less potency than THC",
+    "psychoactive": false,
+    "side_effects": ["Limited known side effects"],
+    "entourage_effect": {
+      "CBD": "Enhances anti-inflammatory properties",
+      "THC": "May enhance analgesic effects"
+    }
+  },
+  "CBC": {
+    "full_name": "Cannabichromene",
+    "effects": ["Anti-inflammatory", "Pain relief", "Antimicrobial"],
+    "percentage_range": [0.1, 0.5],
+    "medical_applications": ["Inflammation", "Pain management", "Potential cancer treatment"],
+    "receptor_interaction": "Interacts with other receptors but not CB1 or CB2",
+    "psychoactive": false,
+    "side_effects": ["Limited known side effects"],
+    "entourage_effect": {
+      "THC": "Enhances anti-inflammatory effects",
+      "CBD": "Amplifies pain relief and anti-inflammatory properties"
+    }
+  },
+  "Delta-8 THC": {
+    "full_name": "Delta-8 Tetrahydrocannabinol",
+    "effects": ["Appetite stimulant", "Mild euphoria", "Neuroprotective"],
+    "percentage_range": [0.1, 1.0],
+    "medical_applications": ["Pain management", "Nausea", "Neuroprotection"],
+    "receptor_interaction": "Binds to CB1 and CB2 receptors, weaker than Delta-9 THC",
+    "psychoactive": "Mildly psychoactive",
+    "side_effects": ["Mild euphoria", "Potential anxiety", "Dry mouth"],
+    "entourage_effect": {
+      "CBD": "May enhance neuroprotective effects",
+      "THC": "Similar effects with potentially fewer side effects"
+    }
+  },
+  "Delta-9 THC": {
+    "full_name": "Delta-9 Tetrahydrocannabinol",
+    "effects": ["Euphoria", "Pain relief", "Appetite stimulant"],
+    "percentage_range": [0.3, 39.0],
+    "medical_applications": ["Chronic pain", "Nausea", "Multiple sclerosis", "PTSD"],
+    "receptor_interaction": "Primary psychoactive compound, binds strongly to CB1 and CB2",
+    "psychoactive": true,
+    "side_effects": ["Anxiety", "Paranoia", "Impaired memory", "Dry mouth"],
+    "entourage_effect": {
+      "CBD": "Reduces psychoactive effects and enhances pain relief",
+      "CBN": "Enhances sedative properties"
+    }
+  }
+}

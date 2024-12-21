@@ -1,0 +1,6 @@
+*.csv
+
+/node_modules
+/__pycache__
+/.idea
+/.venv
